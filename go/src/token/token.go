@@ -1,3 +1,9 @@
+/*
+building blocks of a programming language 
+represent the smallest meaningful units 
+such as keywords, operators, and literals
+*/ 
+
 package token
 
 type TokenType string
@@ -6,6 +12,7 @@ type Token struct {
 	Literal string
 }
 
+// const block
 const (
 	ILLEGAL = "ILLEGAL"
 	EOF     = "EOF"
