@@ -1,1 +1,0 @@
-# interpreter writing in go
