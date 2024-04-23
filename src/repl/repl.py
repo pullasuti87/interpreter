@@ -1,4 +1,4 @@
-from src.lexer import Lexer
+from src.lexer.lexer import Lexer
 
 
 def start():
